@@ -1,0 +1,39 @@
+21:36:59:105  INFO 23496 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.6 on imamh with PID 23496 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\cart-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+21:36:59:108 DEBUG 23496 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:36:59:108  INFO 23496 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:37:00:560  INFO 23496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:37:00:562  INFO 23496 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+21:37:00:563  INFO 23496 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21:37:00:563  INFO 23496 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:37:00:569  INFO 23496 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+21:37:00:579  INFO 23496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:37:00:579  INFO 23496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:37:00:724  INFO 23496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:37:00:724  INFO 23496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1563 ms
+21:37:03:265  INFO 23496 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:37:03:371  INFO 23496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+21:37:03:373  INFO 23496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:37:03:376  INFO 23496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:37:03:412  INFO 23496 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:37:03:542  INFO 23496 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 4.971 seconds (JVM running for 6.802)
+21:37:14:543  INFO 23496 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:37:14:544  INFO 23496 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21:37:14:545  INFO 23496 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+21:58:44:232  INFO 7264 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 11.0.6 on imamh with PID 7264 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\cart-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+21:58:44:235 DEBUG 7264 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:58:44:236  INFO 7264 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:58:46:041  INFO 7264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:58:46:043  INFO 7264 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+21:58:46:043  INFO 7264 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21:58:46:044  INFO 7264 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:58:46:051  INFO 7264 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+21:58:46:062  INFO 7264 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:58:46:063  INFO 7264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:58:46:236  INFO 7264 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:58:46:237  INFO 7264 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
+21:58:48:922  INFO 7264 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:58:49:072  INFO 7264 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+21:58:49:074  INFO 7264 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:58:49:077  INFO 7264 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:58:49:110  INFO 7264 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:58:49:254  INFO 7264 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 5.665 seconds (JVM running for 7.606)

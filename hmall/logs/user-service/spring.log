@@ -1,0 +1,92 @@
+19:44:47:660  INFO 20792 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.6 on imamh with PID 20792 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\user-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+19:44:47:663 DEBUG 20792 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:44:47:664  INFO 20792 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "dev"
+19:44:49:225  INFO 20792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+19:44:49:227  INFO 20792 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+19:44:49:228  INFO 20792 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+19:44:49:229  INFO 20792 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:44:49:250  INFO 20792 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+19:44:49:263  INFO 20792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:44:49:263  INFO 20792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:44:49:494  INFO 20792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:44:49:495  INFO 20792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1775 ms
+19:44:52:279  INFO 20792 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:44:52:380  INFO 20792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+19:44:52:382  INFO 20792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:44:52:386  INFO 20792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:44:52:413  INFO 20792 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:44:52:543  INFO 20792 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 5.468 seconds (JVM running for 7.827)
+19:46:15:267  INFO 11736 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.6 on imamh with PID 11736 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\user-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+19:46:15:270 DEBUG 11736 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:46:15:271  INFO 11736 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+19:46:16:869  INFO 11736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+19:46:16:870  INFO 11736 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+19:46:16:870  INFO 11736 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+19:46:16:871  INFO 11736 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:46:16:878  INFO 11736 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+19:46:16:901  INFO 11736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:46:16:901  INFO 11736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:46:17:128  INFO 11736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:46:17:128  INFO 11736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1799 ms
+19:46:19:926  INFO 11736 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:46:20:043  INFO 11736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+19:46:20:045  INFO 11736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:46:20:049  INFO 11736 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:46:20:077  INFO 11736 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:46:20:217  INFO 11736 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 5.555 seconds (JVM running for 7.28)
+19:46:40:505  INFO 11736 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:46:40:506  INFO 11736 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+19:46:40:509  INFO 11736 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+19:47:07:990  INFO 11736 --- [http-nio-8083-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+19:47:08:473  INFO 11736 --- [http-nio-8083-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+19:47:08:483 DEBUG 11736 --- [http-nio-8083-exec-3] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+19:47:08:510 DEBUG 11736 --- [http-nio-8083-exec-3] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+19:47:08:544 DEBUG 11736 --- [http-nio-8083-exec-3] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+19:49:11:492  INFO 11736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+19:49:11:519  INFO 11736 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+19:53:18:339  INFO 1032 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.6 on imamh with PID 1032 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\user-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+19:53:18:341 DEBUG 1032 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:53:18:342  INFO 1032 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+19:53:19:841  INFO 1032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+19:53:19:843  INFO 1032 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+19:53:19:843  INFO 1032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+19:53:19:843  INFO 1032 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:53:19:851  INFO 1032 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+19:53:19:865  INFO 1032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:53:19:865  INFO 1032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:53:20:096  INFO 1032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:53:20:096  INFO 1032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1701 ms
+19:53:22:647  INFO 1032 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:53:22:742  INFO 1032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+19:53:22:743  INFO 1032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:53:22:746  INFO 1032 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:53:22:770  INFO 1032 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:53:22:893  INFO 1032 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 5.148 seconds (JVM running for 7.042)
+19:58:26:790  INFO 11544 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.6 on imamh with PID 11544 (D:\编程文件\SpringCloud微服务黑马\microservice\hmall\user-service\target\classes started by 28927 in D:\编程文件\SpringCloud微服务黑马\microservice\hmall)
+19:58:26:793 DEBUG 11544 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+19:58:26:794  INFO 11544 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+19:58:28:167  INFO 11544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+19:58:28:168  INFO 11544 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+19:58:28:168  INFO 11544 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+19:58:28:169  INFO 11544 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:58:28:177  INFO 11544 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+19:58:28:190  INFO 11544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+19:58:28:190  INFO 11544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+19:58:28:358  INFO 11544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+19:58:28:359  INFO 11544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1521 ms
+19:58:30:958  INFO 11544 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+19:58:31:044  INFO 11544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+19:58:31:045  INFO 11544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+19:58:31:048  INFO 11544 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+19:58:31:075  INFO 11544 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+19:58:31:204  INFO 11544 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 4.959 seconds (JVM running for 6.791)
+19:58:42:433  INFO 11544 --- [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:58:42:435  INFO 11544 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+19:58:42:437  INFO 11544 --- [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+19:58:42:713  INFO 11544 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+19:58:43:083  INFO 11544 --- [http-nio-8083-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+19:58:43:092 DEBUG 11544 --- [http-nio-8083-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==>  Preparing: SELECT id,username,password,phone,create_time,update_time,status,balance FROM user WHERE (username = ?)
+19:58:43:119 DEBUG 11544 --- [http-nio-8083-exec-1] c.h.user.mapper.UserMapper.selectOne     : ==> Parameters: jack(String)
+19:58:43:151 DEBUG 11544 --- [http-nio-8083-exec-1] c.h.user.mapper.UserMapper.selectOne     : <==      Total: 1
+19:58:54:250  INFO 11544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+19:58:54:268  INFO 11544 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

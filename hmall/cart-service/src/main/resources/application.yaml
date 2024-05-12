@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: cart-service
+  cloud:
+    nacos:
+      server-addr: 192.168.224.128:8848
   profiles:
     active: dev
   datasource:
@@ -27,8 +30,8 @@ logging:
 knife4j:
   enable: true
   openapi:
-    title: 黑马商城购物车接口文档
-    description: "黑马商城购物车接口文档"
+    title: 购物车接口文档
+    description: "购物车接口文档"
     email: zhanghuyi@itcast.cn
     concat: 虎哥
     url: https://www.itcast.cn

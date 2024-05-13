@@ -17,11 +17,11 @@
     </properties>
     <dependencies>
         <!--api-->
-<!--        <dependency>-->
-<!--            <groupId>com.heima</groupId>-->
-<!--            <artifactId>hm-api</artifactId>-->
-<!--            <version>1.0.0</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.heima</groupId>
+            <artifactId>hm-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!--加密-->
         <dependency>
             <groupId>org.springframework.security</groupId>
@@ -54,10 +54,15 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
         <!--nacos 服务注册发现-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--OK http 的依赖 -->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+        </dependency>
     </dependencies>
     <!--打包插件才能独立运行-->
     <build>

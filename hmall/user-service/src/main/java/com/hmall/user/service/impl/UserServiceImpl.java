@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmall.common.exception.BadRequestException;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.exception.ForbiddenException;
-import com.hmall.common.utils.UserContext;
 import com.hmall.user.config.JwtProperties;
 import com.hmall.user.domain.dto.LoginFormDTO;
 import com.hmall.user.domain.po.User;
@@ -68,7 +67,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
     public void deductMoney(String pw, Integer totalFee) {
         log.info("开始扣款");
         // 1.校验密码
-        User user = getById(UserContext.getUser());
+        User user = getById(1L/*TODOUserContext.getUser()*/);
         if(user == null || !passwordEncoder.matches(pw, user.getPassword())){
             // 密码错误
             throw new BizIllegalException("用户密码错误");
@@ -76,7 +75,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
         // 2.尝试扣款
         try {
-            baseMapper.updateMoney(UserContext.getUser(), totalFee);
+            baseMapper.updateMoney(1L/*TODOUserContext.getUser()*/, totalFee);
         } catch (Exception e) {
             throw new RuntimeException("扣款失败，可能是余额不足！", e);
         }

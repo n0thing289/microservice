@@ -2,3 +2,6 @@ hm:
   db:
     host: mysql
     pw: 123
+    database: hm-cart # 数据库
+    un: root # 用户名
+    port: 3306

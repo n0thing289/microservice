@@ -2,3 +2,11 @@ hm:
   db:
     host: 192.168.224.128 # 修改为你自己的虚拟机IP地址
     pw: hsp # 修改为docker中的MySQL密码
+    database: hm-pay # 数据库
+    un: root # 用户名
+    port: 3306
+
+  knife4j:
+    title: "支付接口文档"
+    description: "支付接口文档"
+    package: com.hmall.pay.controller

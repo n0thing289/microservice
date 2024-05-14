@@ -43,7 +43,6 @@
     <!-- 对依赖包进行管理 -->
     <dependencyManagement>
         <dependencies>
-
             <!--spring cloud-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>

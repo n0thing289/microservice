@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: item-service
+  cloud:
+    nacos:
+      server-addr: 192.168.224.128:8848
+      config:
+        file-extension: yml
+        shared-configs:
+          - data-id: shared-jdbc.yml
+          - data-id: shared-log.yml
+          - data-id: shared-swagger.yml
+          - data-id: shared-okhttp.yml

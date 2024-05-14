@@ -1,6 +1,8 @@
 package com.hmall.api.config;
 
+import com.hmall.api.interceptor.UserInfoRequestInterceptor;
 import feign.Logger;
+import feign.RequestInterceptor;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -9,6 +11,11 @@ import org.springframework.context.annotation.Bean;
 public class DefaultFeignConfig {
     @Bean
     public Logger.Level feignLoggerLevel(){
-        return Logger.Level.FULL;
+        return Logger.Level.BASIC;
+    }
+
+    @Bean
+    public RequestInterceptor userInfoRequestInterceptor(){
+        return new UserInfoRequestInterceptor();
     }
 }

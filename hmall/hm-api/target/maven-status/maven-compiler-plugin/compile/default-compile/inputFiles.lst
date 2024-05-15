@@ -1,0 +1,8 @@
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\client\UserClient.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\dto\ItemDTO.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\dto\OrderDetailDTO.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\client\ItemClient.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\client\CartClient.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\config\DefaultFeignConfig.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\client\TradeClient.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\hm-api\src\main\java\com\hmall\api\interceptor\UserInfoRequestInterceptor.java

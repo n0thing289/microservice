@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.224.128:8848
+      config:
+        file-extension: yml
+        shared-configs:
+          - data-id: shared-log.yml

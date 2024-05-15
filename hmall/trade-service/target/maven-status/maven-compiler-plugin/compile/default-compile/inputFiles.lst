@@ -1,0 +1,16 @@
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\TradeApplication.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderDetailServiceImpl.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderDetailMapper.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\Order.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderServiceImpl.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderDetailService.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderMapper.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\OrderLogistics.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\controller\OrderController.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\domain\dto\OrderFormDTO.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\impl\OrderLogisticsServiceImpl.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderService.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\domain\po\OrderDetail.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\domain\vo\OrderVO.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\mapper\OrderLogisticsMapper.java
+D:\编程文件\SpringCloud微服务黑马\microservice\hmall\trade-service\src\main\java\com\hmall\trade\service\IOrderLogisticsService.java
